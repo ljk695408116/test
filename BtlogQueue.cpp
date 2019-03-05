@@ -29,7 +29,7 @@ u_int8_t BtlogQueue::enqueue(char *str){
         log_num++;
 
     return 0;
-}
+}   
 
 u_int8_t BtlogQueue::select(char *dst, int num){
     int select_index;
