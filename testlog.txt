@@ -1,0 +1,473 @@
+03-05 10:45:40.909  1336  1841 W bt_l2cap: l2c_link_hci_conn_req:set link_role= 0
+03-05 10:45:41.168  1336  1841 W bt_btm  : btm_acl_role_changed: BDA: 27d22b90-00-78-7818b4-8b6e5c9-2019fc00
+03-05 10:45:41.168  1336  1841 W bt_btm  : btm_acl_role_changed: New role: 0
+03-05 10:45:41.176  1336  1841 W bt_btm  : btm_acl_created hci_handle=7 link_role=1  transport=1
+03-05 10:45:41.176  1336  1841 W bt_btm  : btm_acl_created hci_handle=7 link_role=0  transport=1
+03-05 10:45:41.177  1336  1841 E bt_btif : bta_dm_acl_change new acl connetion:count = 2
+03-05 10:45:41.177  1336  1841 W bt_btif : bta_dm_acl_change info: 0x10
+03-05 10:45:41.177  1336  1841 W bt_l2cap: L2CA_SetDesireRole() new:x0, disallow_switch:0
+03-05 10:45:41.177  1336  1478 D bt_btif_dm: remote version info [90:2b:d2:27:4d:a4]: 0, 0, 0
+03-05 10:45:41.208  1336  1841 W bt_btm  : btm_read_remote_version_complete lmp_version 8 manufacturer 271 lmp_subversion 1544
+03-05 10:45:41.250  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004b  st: CLOSED  evt: PEER_CONNECT_REQ
+03-05 10:45:41.251  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004b  st: TERM_W4_SEC_COMP  evt: SECURITY_COMPLETE
+03-05 10:45:41.251  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004b  st: W4_L2CA_CON_RSP  evt: UPPER_LAYER_CONNECT_RSP
+03-05 10:45:41.251  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004b  st: CONFIG  evt: UPPER_LAYER_CONFIG_REQ
+03-05 10:45:41.330  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004b  st: CONFIG  evt: PEER_CONFIG_REQ
+03-05 10:45:41.330  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004b  st: CONFIG  evt: UPPER_LAYER_CONFIG_RSP
+03-05 10:45:41.330  1336  1841 W bt_l2cap: L2CAP-Upper layer Config_Rsp,Local CID: 0x004b,Remote CID: 0x0047,PSM: 1,our MTU present:1,our MTU:672
+03-05 10:45:41.330  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004b  st: CONFIG  evt: PEER_CONFIG_RSP
+03-05 10:45:41.331  1336  1841 W bt_l2cap: L2CAP-peer_Config_Rsp,Local CID: 0x004b,Remote CID: 0x0047,PSM: 1,peer MTU present: 0,peer MTU: 1024
+03-05 10:45:41.332  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004c  st: CLOSED  evt: PEER_CONNECT_REQ
+03-05 10:45:41.332  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004c  st: TERM_W4_SEC_COMP  evt: SECURITY_COMPLETE
+03-05 10:45:41.333  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004c  st: W4_L2CA_CON_RSP  evt: UPPER_LAYER_CONNECT_RSP
+03-05 10:45:41.333  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004c  st: CONFIG  evt: UPPER_LAYER_CONFIG_REQ
+03-05 10:45:41.346  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004c  st: CONFIG  evt: PEER_CONFIG_REQ
+03-05 10:45:41.346  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004c  st: CONFIG  evt: UPPER_LAYER_CONFIG_RSP
+03-05 10:45:41.346  1336  1841 W bt_l2cap: L2CAP-Upper layer Config_Rsp,Local CID: 0x004c,Remote CID: 0x0048,PSM: 15,our MTU present:1,our MTU:1691
+03-05 10:45:41.347  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004c  st: CONFIG  evt: PEER_CONFIG_RSP
+03-05 10:45:41.348  1336  1841 W bt_l2cap: L2CAP-peer_Config_Rsp,Local CID: 0x004c,Remote CID: 0x0048,PSM: 15,peer MTU present: 0,peer MTU: 1691
+03-05 10:45:41.375  1336  1841 W bt_l2cap: L2CA_DisconnectRsp()  CID: 0x004b
+03-05 10:45:41.376  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004b  st: W4_L2CA_DISC_RSP  evt: UPPER_LAYER_DISCONNECT_RSP
+03-05 10:45:41.376  1336  1841 W bt_sdp  : SDP - Rcvd L2CAP disc, process pend sdp ccb: 0x4b
+03-05 10:45:41.377  1336  1841 W bt_btif : No scb for handle 1
+03-05 10:45:41.377  1336  1841 W bt_l2cap: L2CA_SetDesireRole() new:x0, disallow_switch:0
+03-05 10:45:41.377  1336  1841 W bt_btif : new conn_srvc id:14, app_id:1
+03-05 10:45:41.377  1336  1841 W bt_btif : bta_dm_pm_cback: new conn_srvc id:14, app_id:1 count:4
+03-05 10:45:41.377  1336  1841 W bt_btif : bta_dm_pm_ssr conn_srvc id:14, app_id:1
+03-05 10:45:41.377  1336  1841 W bt_btif : bta_dm_pm_ssr ssr:2, lat:1200
+03-05 10:45:41.377  1336  1841 W bt_l2cap: L2CA_SetDesireRole() new:x0, disallow_switch:0
+03-05 10:45:41.377  1336  1841 W bt_btif : bta_dm_pm_ssr conn_srvc id:14, app_id:1
+03-05 10:45:41.378  1336  1841 W bt_btif : bta_dm_pm_ssr ssr:2, lat:1200
+03-05 10:45:41.400  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004a  st: CLOSED  evt: PEER_CONNECT_REQ
+03-05 10:45:41.400  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004a  st: TERM_W4_SEC_COMP  evt: SECURITY_COMPLETE
+03-05 10:45:41.400  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004a  st: W4_L2CA_CON_RSP  evt: UPPER_LAYER_CONNECT_RSP
+03-05 10:45:41.401  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004a  st: CONFIG  evt: UPPER_LAYER_CONFIG_REQ
+03-05 10:45:41.405  1336  1841 W bt_l2cap: L2CA_DisconnectReq()  CID: 0x004c
+03-05 10:45:41.405  1336  1841 W bt_l2cap: L2CA_SetDesireRole() new:x0, disallow_switch:0
+03-05 10:45:41.411  1336  1478 I bt_btif_pan: bta_pan_callback_transfer: event = BTA_PAN_CLOSE_EVT handle 1
+03-05 10:45:41.414  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004a  st: CONFIG  evt: PEER_CONFIG_REQ
+03-05 10:45:41.414  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004a  st: CONFIG  evt: UPPER_LAYER_CONFIG_RSP
+03-05 10:45:41.414  1336  1841 W bt_l2cap: L2CAP-Upper layer Config_Rsp,Local CID: 0x004a,Remote CID: 0x0049,PSM: 3,our MTU present:1,our MTU:1691
+03-05 10:45:41.415  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004a  st: CONFIG  evt: PEER_CONFIG_RSP
+03-05 10:45:41.415  1336  1841 W bt_l2cap: L2CAP-peer_Config_Rsp,Local CID: 0x004a,Remote CID: 0x0049,PSM: 3,peer MTU present: 0,peer MTU: 1691
+03-05 10:45:41.421  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004c  st: W4_L2CAP_DISC_RSP  evt: PEER_DATA
+03-05 10:45:41.422  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004c  st: W4_L2CAP_DISC_RSP  evt: PEER_DISCONNECT_RSP
+03-05 10:45:41.475  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:41.475  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 0 conn_handle 11
+03-05 10:45:41.475  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 0 conn_handle 2
+03-05 10:45:41.475  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 0 conn_handle 0
+03-05 10:45:41.475  1336  1841 I chatty  : uid=1002(bluetooth) btu message loo identical 5 lines
+03-05 10:45:41.475  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 0 conn_handle 0
+03-05 10:45:41.476  1336  1841 E bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb found for rfc handle 13
+03-05 10:45:41.476  1336  1841 W bt_btif : bta_hf_client_find_cb_by_bda: bdaddr mismatch for handle 0 alloc 1
+03-05 10:45:41.476  1336  1841 W bt_btif : bta_hf_client_find_cb_by_bda: bdaddr mismatch for handle 1 alloc 0
+03-05 10:45:41.476  1336  1841 W bt_btif : bta_hf_client_find_cb_by_bda: bdaddr mismatch for handle 2 alloc 0
+03-05 10:45:41.476  1336  1841 W bt_btif : bta_hf_client_find_cb_by_bda: bdaddr mismatch for handle 3 alloc 0
+03-05 10:45:41.476  1336  1841 W bt_btif : bta_hf_client_find_cb_by_bda: bdaddr mismatch for handle 4 alloc 0
+03-05 10:45:41.476  1336  1841 W bt_btif : bta_hf_client_find_cb_by_bda: bdaddr mismatch for handle 5 alloc 0
+03-05 10:45:41.476  1336  1841 W bt_btif : bta_hf_client_find_cb_by_bda: bdaddr mismatch for handle 6 alloc 0
+03-05 10:45:41.476  1336  1841 W bt_btif : bta_hf_client_find_cb_by_bda: bdaddr mismatch for handle 7 alloc 0
+03-05 10:45:41.476  1336  1841 W bt_btif : bta_hf_client_find_cb_by_bda: bdaddr mismatch for handle 8 alloc 0
+03-05 10:45:41.476  1336  1841 W bt_btif : bta_hf_client_find_cb_by_bda: bdaddr mismatch for handle 9 alloc 0
+03-05 10:45:41.476  1336  1841 E bt_btif : bta_hf_client_find_cb_by_bda: block not found
+03-05 10:45:41.476  1336  1841 W bt_btif : bta_hf_client_allocate_handle: control block already used index 0
+03-05 10:45:41.476  1336  1841 I bt_stack: [INFO:port_api.cc(123)] RFCOMM_CreateConnection BDA: ff:ff:ff:ff:ff:ff
+03-05 10:45:41.477  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0048  st: CLOSED  evt: UPPER_LAYER_CONNECT_REQ
+03-05 10:45:41.477  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0048  st: CLOSED  evt: SECURITY_COMPLETE
+03-05 10:45:41.477  1336  1841 W bt_l2cap: L2CA_SetDesireRole() new:x0, disallow_switch:0
+03-05 10:45:41.477  1336  1841 W bt_btif : new conn_srvc id:27, app_id:1
+03-05 10:45:41.477  1336  1841 W bt_btif : bta_dm_pm_cback: new conn_srvc id:27, app_id:1 count:4
+03-05 10:45:41.477  1336  1841 W bt_btif : bta_dm_pm_ssr conn_srvc id:27, app_id:1
+03-05 10:45:41.477  1336  1841 W bt_btif : bta_dm_pm_ssr ssr:2, lat:1200
+03-05 10:45:41.501  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0048  st: W4_L2CAP_CON_RSP  evt: PEER_CONNECT_RSP
+03-05 10:45:41.502  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0048  st: CONFIG  evt: UPPER_LAYER_CONFIG_REQ
+03-05 10:45:41.503  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0048  st: CONFIG  evt: PEER_CONFIG_REQ
+03-05 10:45:41.503  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0048  st: CONFIG  evt: UPPER_LAYER_CONFIG_RSP
+03-05 10:45:41.503  1336  1841 W bt_l2cap: L2CAP-Upper layer Config_Rsp,Local CID: 0x0048,Remote CID: 0x004a,PSM: 1,our MTU present:1,our MTU:672
+03-05 10:45:41.518  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0048  st: CONFIG  evt: PEER_CONFIG_RSP
+03-05 10:45:41.518  1336  1841 W bt_l2cap: L2CAP-peer_Config_Rsp,Local CID: 0x0048,Remote CID: 0x004a,PSM: 1,peer MTU present: 0,peer MTU: 1024
+03-05 10:45:41.550  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:41.551  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:41.553  1336  1841 W bt_sdp  : process_service_search_attr_rsp
+03-05 10:45:41.553  1336  1841 W bt_l2cap: L2CA_DisconnectReq()  CID: 0x0048
+03-05 10:45:41.574  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:41.575  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0048  st: W4_L2CAP_DISC_RSP  evt: PEER_DISCONNECT_RSP
+03-05 10:45:41.602  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:41.603  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:41.624  1336  1478 E bt_btif : btif_hf_client_get_cb_by_bda: could not find block for bdaddr
+03-05 10:45:41.649  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:41.650  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:41.674  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:41.678  1336  1841 W bt_l2cap: L2CA_SetDesireRole() new:x0, disallow_switch:0
+03-05 10:45:41.700  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:41.701  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:41.701  1336  1841 W bt_btif : bta_hf_client_sco_create: Index 0x0001 already in use
+03-05 10:45:41.702  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0047  st: CLOSED  evt: PEER_CONNECT_REQ
+03-05 10:45:41.702  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0047  st: TERM_W4_SEC_COMP  evt: SECURITY_COMPLETE
+03-05 10:45:41.702  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0047  st: W4_L2CA_CON_RSP  evt: UPPER_LAYER_CONNECT_RSP
+03-05 10:45:41.702  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0047  st: CONFIG  evt: UPPER_LAYER_CONFIG_REQ
+03-05 10:45:41.716  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:41.717  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0047  st: CONFIG  evt: PEER_CONFIG_REQ
+03-05 10:45:41.717  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0047  st: CONFIG  evt: UPPER_LAYER_CONFIG_RSP
+03-05 10:45:41.717  1336  1841 W bt_l2cap: L2CAP-Upper layer Config_Rsp,Local CID: 0x0047,Remote CID: 0x004b,PSM: 1,our MTU present:1,our MTU:672
+03-05 10:45:41.719  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0047  st: CONFIG  evt: PEER_CONFIG_RSP
+03-05 10:45:41.720  1336  1841 W bt_l2cap: L2CAP-peer_Config_Rsp,Local CID: 0x0047,Remote CID: 0x004b,PSM: 1,peer MTU present: 0,peer MTU: 1024
+03-05 10:45:41.749  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:41.753  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:41.850  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:41.852  1336  1841 W bt_l2cap: L2CA_DisconnectRsp()  CID: 0x0047
+03-05 10:45:41.852  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0047  st: W4_L2CA_DISC_RSP  evt: UPPER_LAYER_DISCONNECT_RSP
+03-05 10:45:41.852  1336  1841 W bt_sdp  : SDP - Rcvd L2CAP disc, process pend sdp ccb: 0x47
+03-05 10:45:41.877  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:41.879  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0042  st: CLOSED  evt: PEER_CONNECT_REQ
+03-05 10:45:41.879  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0042  st: TERM_W4_SEC_COMP  evt: SECURITY_COMPLETE
+03-05 10:45:41.880  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0042  st: W4_L2CA_CON_RSP  evt: UPPER_LAYER_CONNECT_RSP
+03-05 10:45:41.880  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0042  st: CONFIG  evt: UPPER_LAYER_CONFIG_REQ
+03-05 10:45:41.887  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:41.889  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0042  st: CONFIG  evt: PEER_CONFIG_REQ
+03-05 10:45:41.889  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0042  st: CONFIG  evt: UPPER_LAYER_CONFIG_RSP
+03-05 10:45:41.889  1336  1841 W bt_l2cap: L2CAP-Upper layer Config_Rsp,Local CID: 0x0042,Remote CID: 0x004c,PSM: 25,our MTU present:1,our MTU:672
+03-05 10:45:41.890  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0042  st: CONFIG  evt: PEER_CONFIG_RSP
+03-05 10:45:41.890  1336  1841 W bt_l2cap: L2CAP-peer_Config_Rsp,Local CID: 0x0042,Remote CID: 0x004c,PSM: 25,peer MTU present: 0,peer MTU: 672
+03-05 10:45:41.890  1336  1841 D bt_btif : bta_av_sig_chg:bta_av_sig_chg event: 16
+03-05 10:45:41.890  1336  1841 E bt_btif : av scb not available for avdt connection
+03-05 10:45:41.890  1336  1841 W bt_avp  : AVDT_DisconnectReq: address=90:2b:d2:27:4d:a4
+03-05 10:45:41.891  1336  1841 W bt_l2cap: L2CA_DisconnectReq()  CID: 0x0042
+03-05 10:45:41.897  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:41.900  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0042  st: W4_L2CAP_DISC_RSP  evt: PEER_DATA
+03-05 10:45:41.902  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0042  st: W4_L2CAP_DISC_RSP  evt: PEER_DISCONNECT_RSP
+03-05 10:45:41.903  1336  1841 E bt_l2cap: L2CA_SetMediaStreamChannel: The channel 66 not found in active media channels
+03-05 10:45:41.903  1336  1841 D bt_btif : bta_av_sig_chg:bta_av_sig_chg event: 17
+03-05 10:45:41.925  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:41.949  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:41.950  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:41.975  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:42.002  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:42.003  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:42.024  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:50.942  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 12
+03-05 10:45:59.854  1336  1841 E bt_stack: [ERROR:bta_hf_client_rfc.cc(131)] bta_hf_client_mgmt_cback: closing port handle 12dev 2c:57:31:38:f1:fb
+03-05 10:45:59.854  1336  1841 W bt_rfcomm: port_rfc_closed: RFCOMM connection closed, index=0, state=0 reason=Closed[19], UUID=0000, bd_addr=00:00:00:00:00:00, is_server=0
+03-05 10:45:59.854  1336  1841 W bt_l2cap: L2CA_SetDesireRole() new:x0, disallow_switch:0
+03-05 10:45:59.874  1336  1841 W bt_l2cap: L2CA_DisconnectRsp()  CID: 0x0041
+03-05 10:45:59.874  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0041  st: W4_L2CA_DISC_RSP  evt: UPPER_LAYER_DISCONNECT_RSP
+03-05 10:45:59.875  1336  1841 D bt_btif : bta_av_ssm_execute(): AV Sevent(0x41)=0x121e(STR_CLOSE) state=3(OPEN)
+03-05 10:45:59.875  1336  1841 W bt_btif : bta_av_str_closed: peer_addr=2c:57:31:38:f1:fb open_status=0 chnl=64 hndl=65 co_started=0
+03-05 10:45:59.875  1336  1841 W bt_l2cap: L2CA_SetDesireRole() new:x80, disallow_switch:0
+03-05 10:45:59.875  1336  1841 E bt_l2cap: L2CA_SetMediaStreamChannel: The channel 65 not found in active media channels
+03-05 10:45:59.875  1336  1841 W bt_btif : bta_av_str_closed Open success !!!
+03-05 10:45:59.875  1336  1841 W bt_btif : bta_dm_rm_cback:0, status:1
+03-05 10:45:59.875  1336  1841 W bt_l2cap: L2CA_SetDesireRole() new:x0, disallow_switch:0
+03-05 10:45:59.875  1336  1841 D bt_btif : bta_av_del_rc  handle: 1 status=0x20, rc_acp_handle:0, idx:1
+03-05 10:45:59.875  1336  1841 D bt_btif : AVRC_Close handle:1, clean up all system resources
+03-05 10:45:59.875  1336  1841 D bt_btif : LCB lcb=1 event=UL_UNBIND_EVT state=LCB_OPEN_ST
+03-05 10:45:59.875  1336  1841 W bt_avp  : avct_lcb_chk_disc
+03-05 10:45:59.875  1336  1841 W bt_avp  : avct_lcb_last_ccb
+03-05 10:45:59.875  1336  1841 W bt_avp  : 0: aloc:1, lcb:0x0/0x1a0128b0, ccb:0x1a012970/0x1a0129a0
+03-05 10:45:59.875  1336  1841 W bt_avp  : 1: aloc:3, lcb:0x1a0128b0/0x1a0128b0, ccb:0x1a0129a0/0x1a0129a0
+03-05 10:45:59.875  1336  1841 W bt_avp  : 2: aloc:0, lcb:0x0/0x1a0128b0, ccb:0x1a0129d0/0x1a0129a0
+03-05 10:45:59.875  1336  1841 W bt_avp  : avct_lcb_chk_disc: closing
+03-05 10:45:59.875  1336  1841 D bt_btif : LCB lcb=1 event=INT_CLOSE_EVT state=LCB_OPEN_ST
+03-05 10:45:59.875  1336  1841 W bt_l2cap: L2CA_DisconnectReq()  CID: 0x0046
+03-05 10:45:59.876  1336  1478 D bt_btif : btif_av_state_opened_handler event:BTA_AV_CLOSE_EVT flags 0 peer_sep 0 and index 0
+03-05 10:45:59.876  1336  1478 W bt_btif : Stop the AV Data channel
+03-05 10:45:59.876  1336  1478 W bt_btif : ## ON A2DP STOPPED ##
+03-05 10:45:59.876  1336  1841 W bt_l2cap: L2CA_DisconnectRsp()  CID: 0x0040
+03-05 10:45:59.876  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0040  st: W4_L2CA_DISC_RSP  evt: UPPER_LAYER_DISCONNECT_RSP
+03-05 10:45:59.876  1336  1841 W bt_rfcomm: RFCOMM_DisconnectInd LCID:0x40
+03-05 10:45:59.877  1336  1478 I BluetoothA2dpSinkServiceJni: bta2dp_connection_state_callback
+03-05 10:45:59.878  1336  1478 D bt_btif : btif_av_state_opened_handler event:BTIF_SM_EXIT_EVT flags 0 peer_sep 0 and index 0
+03-05 10:45:59.878  1336  1478 D bt_btif : btif_av_state_idle_handler event:BTIF_SM_ENTER_EVT flags 0 on index 0
+03-05 10:45:59.880  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0046  st: W4_L2CAP_DISC_RSP  evt: PEER_DISCONNECT_REQ
+03-05 10:45:59.880  1336  1841 D bt_btif : LCB lcb=1 event=LL_CLOSE_EVT state=LCB_CLOSING_ST
+03-05 10:45:59.880  1336  1841 D bt_btif : bta_av_rc_ctrl_cback handle: 1 event=0x1
+03-05 10:45:59.886  1336  1841 W bt_l2cap: L2CA_DisconnectRsp()  CID: 0x0045
+03-05 10:45:59.886  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0045  st: W4_L2CA_DISC_RSP  evt: UPPER_LAYER_DISCONNECT_RSP
+03-05 10:45:59.887  1336  1841 E bt_l2cap: L2CA_SetMediaStreamChannel: The channel 69 not found in active media channels
+03-05 10:45:59.887  1336  1841 D bt_btif : bta_av_sig_chg:bta_av_sig_chg event: 17
+03-05 10:45:59.887  1336  1478 D bt_btif : btif_dispatch_sm_event: event: 35, len: 6
+03-05 10:45:59.887  1336  1478 D bt_btif : btif_dispatch_sm_event: event 35 sent
+03-05 10:45:59.887  1336  1478 D bt_btif : btif_rc_handler: event: BTA_AV_RC_CLOSE_EVT
+03-05 10:45:59.887  1336  1478 D bt_btif : handle_rc_disconnect: rc_handle: 1
+03-05 10:45:59.887  1336  1478 I BluetoothAvrcpControllerJni: btavrcp_connection_state_callback: conn state: rc: 0 br: 0
+03-05 10:45:59.891  1336  1880 E bt_btif : send_passthrough_cmd: calling btif_rc_get_device_by_bda
+03-05 10:45:59.891  1336  1880 E bt_btif : btif_rc_get_device_by_bda: device not found, returning NULL!
+03-05 10:45:59.891  1336  1880 E bt_btif : send_passthrough_cmd: p_dev NULL
+03-05 10:45:59.893  1336  1478 E bt_btif : Unhandled Index = 1
+03-05 10:45:59.893  1336  1478 D bt_btif : Process BTIF_AV_SOURCE_CONFIG_UPDATED_EVT on idx = 0
+03-05 10:45:59.893  1336  1478 D bt_btif : btif_av_state_idle_handler event:BTIF_AV_SOURCE_CONFIG_UPDATED_EVT flags 0 on index 0
+03-05 10:45:59.897  1336  1880 E bt_btif : send_passthrough_cmd: calling btif_rc_get_device_by_bda
+03-05 10:45:59.897  1336  1880 E bt_btif : btif_rc_get_device_by_bda: device not found, returning NULL!
+03-05 10:45:59.897  1336  1880 E bt_btif : send_passthrough_cmd: p_dev NULL
+03-05 10:45:59.941  1336  1336 D A2dpMediaBrowserService: handleConnectionStateChange: newState=0 btDev=2C:57:31:38:F1:FB
+03-05 10:46:00.029  1336  1841 I bt_btm_sec: btm_sec_disconnected clearing pending flag handle:6 reason:19
+03-05 10:46:00.030  1336  1841 W bt_l2cap: L2CA_SetDesireRole() new:x1, disallow_switch:0
+03-05 10:46:00.030  1336  1478 D bt_btif : btif_av_move_idle: Already in IDLE
+03-05 10:46:03.318  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 0 conn_handle 12
+03-05 10:46:09.091  1336  1841 W bt_l2cap: l2c_link_hci_conn_req:set link_role= 0
+03-05 10:46:09.350  1336  1841 W bt_btm  : btm_acl_role_changed: BDA: 3831572c-00-78-7818b4-8b6e5c9-2019fc00
+03-05 10:46:09.350  1336  1841 W bt_btm  : btm_acl_role_changed: New role: 0
+03-05 10:46:09.359  1336  1841 W bt_btm  : btm_acl_created hci_handle=8 link_role=1  transport=1
+03-05 10:46:09.359  1336  1841 W bt_btm  : btm_acl_created hci_handle=8 link_role=0  transport=1
+03-05 10:46:09.360  1336  1841 E bt_btif : bta_dm_acl_change new acl connetion:count = 2
+03-05 10:46:09.360  1336  1841 W bt_btif : bta_dm_acl_change info: 0x10
+03-05 10:46:09.360  1336  1478 D bt_btif_dm: remote version info [2c:57:31:38:f1:fb]: 0, 0, 0
+03-05 10:46:09.360  1336  1841 W bt_l2cap: L2CA_SetDesireRole() new:x1, disallow_switch:0
+03-05 10:46:09.385  1336  1841 W bt_btm  : btm_read_remote_version_complete lmp_version 8 manufacturer 70 lmp_subversion 1811
+03-05 10:46:09.421  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004e  st: CLOSED  evt: PEER_CONNECT_REQ
+03-05 10:46:09.422  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004e  st: TERM_W4_SEC_COMP  evt: SECURITY_COMPLETE
+03-05 10:46:09.422  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004e  st: W4_L2CA_CON_RSP  evt: UPPER_LAYER_CONNECT_RSP
+03-05 10:46:09.422  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004e  st: CONFIG  evt: UPPER_LAYER_CONFIG_REQ
+03-05 10:46:09.426  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004e  st: CONFIG  evt: PEER_CONFIG_REQ
+03-05 10:46:09.427  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004e  st: CONFIG  evt: UPPER_LAYER_CONFIG_RSP
+03-05 10:46:09.427  1336  1841 W bt_l2cap: L2CAP-Upper layer Config_Rsp,Local CID: 0x004e,Remote CID: 0x0049,PSM: 1,our MTU present:1,our MTU:672
+03-05 10:46:09.429  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004e  st: CONFIG  evt: PEER_CONFIG_RSP
+03-05 10:46:09.429  1336  1841 W bt_l2cap: L2CAP-peer_Config_Rsp,Local CID: 0x004e,Remote CID: 0x0049,PSM: 1,peer MTU present: 0,peer MTU: 672
+03-05 10:46:09.461  1336  1841 W bt_l2cap: L2CA_DisconnectRsp()  CID: 0x004e
+03-05 10:46:09.461  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004e  st: W4_L2CA_DISC_RSP  evt: UPPER_LAYER_DISCONNECT_RSP
+03-05 10:46:09.462  1336  1841 W bt_sdp  : SDP - Rcvd L2CAP disc, process pend sdp ccb: 0x4e
+03-05 10:46:09.591  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004f  st: CLOSED  evt: PEER_CONNECT_REQ
+03-05 10:46:09.591  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004f  st: TERM_W4_SEC_COMP  evt: SECURITY_COMPLETE
+03-05 10:46:09.591  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004f  st: W4_L2CA_CON_RSP  evt: UPPER_LAYER_CONNECT_RSP
+03-05 10:46:09.592  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004f  st: CONFIG  evt: UPPER_LAYER_CONFIG_REQ
+03-05 10:46:09.599  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004f  st: CONFIG  evt: PEER_CONFIG_REQ
+03-05 10:46:09.599  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004f  st: CONFIG  evt: UPPER_LAYER_CONFIG_RSP
+03-05 10:46:09.599  1336  1841 W bt_l2cap: L2CAP-Upper layer Config_Rsp,Local CID: 0x004f,Remote CID: 0x004a,PSM: 3,our MTU present:1,our MTU:1691
+03-05 10:46:09.600  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004f  st: CONFIG  evt: PEER_CONFIG_RSP
+03-05 10:46:09.600  1336  1841 W bt_l2cap: L2CAP-peer_Config_Rsp,Local CID: 0x004f,Remote CID: 0x004a,PSM: 3,peer MTU present: 0,peer MTU: 1691
+03-05 10:46:09.614  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 14 alloc 0 conn_handle 12
+03-05 10:46:09.614  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 14 alloc 1 conn_handle 13
+03-05 10:46:09.614  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 14 alloc 0 conn_handle 2
+03-05 10:46:09.614  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 14 alloc 0 conn_handle 0
+03-05 10:46:09.615  1336  1841 I chatty  : uid=1002(bluetooth) btu message loo identical 5 lines
+03-05 10:46:09.615  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 14 alloc 0 conn_handle 0
+03-05 10:46:09.615  1336  1841 E bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb found for rfc handle 14
+03-05 10:46:09.615  1336  1841 W bt_btif : bta_hf_client_find_cb_by_bda: bdaddr mismatch for handle 0 alloc 0
+03-05 10:46:09.615  1336  1841 W bt_btif : bta_hf_client_find_cb_by_bda: bdaddr mismatch for handle 1 alloc 1
+03-05 10:46:09.615  1336  1841 W bt_btif : bta_hf_client_find_cb_by_bda: bdaddr mismatch for handle 2 alloc 0
+03-05 10:46:09.615  1336  1841 W bt_btif : bta_hf_client_find_cb_by_bda: bdaddr mismatch for handle 3 alloc 0
+03-05 10:46:09.615  1336  1841 W bt_btif : bta_hf_client_find_cb_by_bda: bdaddr mismatch for handle 4 alloc 0
+03-05 10:46:09.615  1336  1841 W bt_btif : bta_hf_client_find_cb_by_bda: bdaddr mismatch for handle 5 alloc 0
+03-05 10:46:09.615  1336  1841 W bt_btif : bta_hf_client_find_cb_by_bda: bdaddr mismatch for handle 6 alloc 0
+03-05 10:46:09.615  1336  1841 W bt_btif : bta_hf_client_find_cb_by_bda: bdaddr mismatch for handle 7 alloc 0
+03-05 10:46:09.615  1336  1841 W bt_btif : bta_hf_client_find_cb_by_bda: bdaddr mismatch for handle 8 alloc 0
+03-05 10:46:09.615  1336  1841 W bt_btif : bta_hf_client_find_cb_by_bda: bdaddr mismatch for handle 9 alloc 0
+03-05 10:46:09.616  1336  1841 E bt_btif : bta_hf_client_find_cb_by_bda: block not found
+03-05 10:46:09.616  1336  1841 I bt_stack: [INFO:port_api.cc(123)] RFCOMM_CreateConnection BDA: ff:ff:ff:ff:ff:ff
+03-05 10:46:09.617  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004d  st: CLOSED  evt: UPPER_LAYER_CONNECT_REQ
+03-05 10:46:09.617  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004d  st: CLOSED  evt: SECURITY_COMPLETE
+03-05 10:46:09.617  1336  1841 W bt_l2cap: L2CA_SetDesireRole() new:x1, disallow_switch:0
+03-05 10:46:09.617  1336  1841 W bt_btif : new conn_srvc id:27, app_id:1
+03-05 10:46:09.617  1336  1841 W bt_btif : bta_dm_pm_cback: new conn_srvc id:27, app_id:1 count:3
+03-05 10:46:09.617  1336  1841 W bt_btif : bta_dm_pm_ssr conn_srvc id:18, app_id:0
+03-05 10:46:09.617  1336  1841 W bt_btif : bta_dm_pm_ssr conn_srvc id:27, app_id:1
+03-05 10:46:09.617  1336  1841 W bt_btif : bta_dm_pm_ssr ssr:2, lat:1200
+03-05 10:46:09.618  1336  1478 E bt_btif : btif_hf_client_get_cb_by_bda: could not find block for bdaddr
+03-05 10:46:09.622  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0043  st: CLOSED  evt: PEER_CONNECT_REQ
+03-05 10:46:09.622  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0043  st: TERM_W4_SEC_COMP  evt: SECURITY_COMPLETE
+03-05 10:46:09.622  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0043  st: W4_L2CA_CON_RSP  evt: UPPER_LAYER_CONNECT_RSP
+03-05 10:46:09.623  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0043  st: CONFIG  evt: UPPER_LAYER_CONFIG_REQ
+03-05 10:46:09.624  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004d  st: W4_L2CAP_CON_RSP  evt: PEER_CONNECT_RSP
+03-05 10:46:09.624  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004d  st: CONFIG  evt: UPPER_LAYER_CONFIG_REQ
+03-05 10:46:09.625  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004d  st: CONFIG  evt: PEER_CONFIG_REQ
+03-05 10:46:09.626  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004d  st: CONFIG  evt: UPPER_LAYER_CONFIG_RSP
+03-05 10:46:09.626  1336  1841 W bt_l2cap: L2CAP-Upper layer Config_Rsp,Local CID: 0x004d,Remote CID: 0x004c,PSM: 1,our MTU present:1,our MTU:672
+03-05 10:46:09.629  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0043  st: CONFIG  evt: PEER_CONFIG_REQ
+03-05 10:46:09.629  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0043  st: CONFIG  evt: UPPER_LAYER_CONFIG_RSP
+03-05 10:46:09.630  1336  1841 W bt_l2cap: L2CAP-Upper layer Config_Rsp,Local CID: 0x0043,Remote CID: 0x004b,PSM: 1,our MTU present:1,our MTU:672
+03-05 10:46:09.635  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0043  st: CONFIG  evt: PEER_CONFIG_RSP
+03-05 10:46:09.635  1336  1841 W bt_l2cap: L2CAP-peer_Config_Rsp,Local CID: 0x0043,Remote CID: 0x004b,PSM: 1,peer MTU present: 0,peer MTU: 672
+03-05 10:46:09.637  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004d  st: CONFIG  evt: PEER_CONFIG_RSP
+03-05 10:46:09.637  1336  1841 W bt_l2cap: L2CAP-peer_Config_Rsp,Local CID: 0x004d,Remote CID: 0x004c,PSM: 1,peer MTU present: 0,peer MTU: 672
+03-05 10:46:09.645  1336  1841 W bt_sdp  : process_service_search_attr_rsp
+03-05 10:46:09.645  1336  1841 W bt_l2cap: L2CA_DisconnectReq()  CID: 0x004d
+03-05 10:46:09.651  1336  1841 W bt_l2cap: L2CA_DisconnectRsp()  CID: 0x0043
+03-05 10:46:09.651  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0043  st: W4_L2CA_DISC_RSP  evt: UPPER_LAYER_DISCONNECT_RSP
+03-05 10:46:09.652  1336  1841 W bt_sdp  : SDP - Rcvd L2CAP disc, process pend sdp ccb: 0x43
+03-05 10:46:09.652  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004d  st: W4_L2CAP_DISC_RSP  evt: PEER_DISCONNECT_RSP
+03-05 10:46:09.657  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0049  st: CLOSED  evt: PEER_CONNECT_REQ
+03-05 10:46:09.658  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0049  st: TERM_W4_SEC_COMP  evt: SECURITY_COMPLETE
+03-05 10:46:09.658  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0049  st: W4_L2CA_CON_RSP  evt: UPPER_LAYER_CONNECT_RSP
+03-05 10:46:09.658  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0049  st: CONFIG  evt: UPPER_LAYER_CONFIG_REQ
+03-05 10:46:09.664  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0049  st: CONFIG  evt: PEER_CONFIG_REQ
+03-05 10:46:09.664  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0049  st: CONFIG  evt: UPPER_LAYER_CONFIG_RSP
+03-05 10:46:09.664  1336  1841 W bt_l2cap: L2CAP-Upper layer Config_Rsp,Local CID: 0x0049,Remote CID: 0x004d,PSM: 25,our MTU present:1,our MTU:672
+03-05 10:46:09.667  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0049  st: CONFIG  evt: PEER_CONFIG_RSP
+03-05 10:46:09.667  1336  1841 W bt_l2cap: L2CAP-peer_Config_Rsp,Local CID: 0x0049,Remote CID: 0x004d,PSM: 25,peer MTU present: 0,peer MTU: 672
+03-05 10:46:09.667  1336  1841 D bt_btif : bta_av_sig_chg:bta_av_sig_chg event: 16
+03-05 10:46:09.667  1336  1841 E bt_btif : bta_av_rc_create ACP handle exist for shdl:0
+03-05 10:46:09.667  1336  1841 D bt_btif : bta_av_ssm_execute(): AV Sevent(0x41)=0x122a(ACP_CONNECT) state=0(INIT)
+03-05 10:46:09.668  1336  1841 W bt_btif : bta_dm_rm_cback:0, status:0
+03-05 10:46:09.668  1336  1841 W bt_l2cap: L2CA_SetDesireRole() new:x0, disallow_switch:0
+03-05 10:46:09.668  1336  1841 W bt_btif : bta_dm_pm_ssr conn_srvc id:18, app_id:0
+03-05 10:46:09.668  1336  1841 W bt_btif : bta_dm_pm_ssr conn_srvc id:27, app_id:1
+03-05 10:46:09.668  1336  1841 W bt_btif : bta_dm_pm_ssr ssr:2, lat:1200
+03-05 10:46:09.668  1336  1478 D bt_btif : btif_av_state_idle_handler event:BTA_AV_PENDING_EVT flags 0 on index 0
+03-05 10:46:09.668  1336  1478 D bt_btif : btif_av_state_idle_handler event:BTIF_SM_EXIT_EVT flags 0 on index 0
+03-05 10:46:09.668  1336  1478 D bt_btif : btif_av_state_opening_handler event:BTIF_SM_ENTER_EVT flags 0 on index 0
+03-05 10:46:09.668  1336  1478 I BluetoothA2dpSinkServiceJni: bta2dp_connection_state_callback
+03-05 10:46:09.670  1336  1868 D BluetoothAdapterService: getAdapterService() - returning com.android.bluetooth.btservice.AdapterService@4efbefe
+03-05 10:46:09.672  1336  1841 D bt_btif : bta_av_ssm_execute(): AV Sevent(0x41)=0x1209(API_OPEN) state=1(INCOMING)
+03-05 10:46:09.674  1336  1841 W bt_avp  : avdt_ccb_get_num_allocated_seps:num seps allocated = 1
+03-05 10:46:09.674  1336  1841 W bt_avp  : avdt_ccb_hdl_discover_cmd: total connections: 1, total codecs: 1
+03-05 10:46:09.674  1336  1841 W bt_avp  : avdt_ccb_hdl_discover_cmd: effective number of endpoints: 1
+03-05 10:46:09.686  1336  1841 W bt_avp  : avdt_scb_hdl_setconfig_cmd: SCB in use: 0, Conn in progress: 0, avdt_check_sep_state: 0
+03-05 10:46:09.686  1336  1841 D bt_btif : bta_av_ssm_execute(): AV Sevent(0x41)=0x121f(STR_CONFIG_IND) state=1(INCOMING)
+03-05 10:46:09.686  1336  1841 D bt_btif : bta_av_co_audio_setconfig: p_codec_info[0:0:21:15:2:35]
+03-05 10:46:09.686  1336  1841 D bt_btif : bta_av_ssm_execute(): AV Sevent(0x41)=0x1212(CI_SETCONFIG_OK) state=1(INCOMING)
+03-05 10:46:09.686  1336  1478 E bt_btif : Unhandled event = 36
+03-05 10:46:09.687  1336  1478 D bt_btif : btif_av_state_opening_handler event:BTIF_AV_SINK_CONFIG_REQ_EVT flags 0 on index 0
+03-05 10:46:09.687  1336  1478 W bt_btif : BTIF_AV_SINK_CONFIG_REQ_EVT 44100 2
+03-05 10:46:09.687  1336  1478 I BluetoothA2dpSinkServiceJni: bta2dp_audio_config_callback
+03-05 10:46:09.689  1336  1841 W bt_btif : bta_hf_client_sco_create: Index 0x0000 already in use
+03-05 10:46:09.702  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0044  st: CLOSED  evt: PEER_CONNECT_REQ
+03-05 10:46:09.702  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0044  st: TERM_W4_SEC_COMP  evt: SECURITY_COMPLETE
+03-05 10:46:09.702  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0044  st: W4_L2CA_CON_RSP  evt: UPPER_LAYER_CONNECT_RSP
+03-05 10:46:09.702  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0044  st: CONFIG  evt: UPPER_LAYER_CONFIG_REQ
+03-05 10:46:09.715  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0044  st: CONFIG  evt: PEER_CONFIG_REQ
+03-05 10:46:09.715  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0044  st: CONFIG  evt: UPPER_LAYER_CONFIG_RSP
+03-05 10:46:09.715  1336  1841 W bt_l2cap: L2CAP-Upper layer Config_Rsp,Local CID: 0x0044,Remote CID: 0x004e,PSM: 25,our MTU present:1,our MTU:1008
+03-05 10:46:09.719  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0044  st: CONFIG  evt: PEER_CONFIG_RSP
+03-05 10:46:09.720  1336  1841 W bt_l2cap: L2CAP-peer_Config_Rsp,Local CID: 0x0044,Remote CID: 0x004e,PSM: 25,peer MTU present: 0,peer MTU: 1008
+03-05 10:46:09.720  1336  1841 D bt_btif : bta_av_ssm_execute(): AV Sevent(0x41)=0x121a(STR_OPEN_OK) state=1(INCOMING)
+03-05 10:46:09.720  1336  1841 W bt_btif : bta_dm_rm_cback:0, status:0
+03-05 10:46:09.720  1336  1841 W bt_l2cap: L2CA_SetDesireRole() new:x0, disallow_switch:0
+03-05 10:46:09.720  1336  1841 W bt_btif : new conn_srvc id:18, app_id:1
+03-05 10:46:09.720  1336  1841 W bt_btif : bta_dm_pm_cback: new conn_srvc id:18, app_id:1 count:4
+03-05 10:46:09.720  1336  1841 W bt_btif : bta_dm_pm_ssr conn_srvc id:18, app_id:0
+03-05 10:46:09.720  1336  1841 W bt_btif : bta_dm_pm_ssr conn_srvc id:27, app_id:1
+03-05 10:46:09.720  1336  1841 W bt_btif : bta_dm_pm_ssr conn_srvc id:18, app_id:1
+03-05 10:46:09.720  1336  1841 W bt_btif : bta_dm_pm_ssr ssr:2, lat:1200
+03-05 10:46:09.720  1336  1841 W bt_btm  : BTM: Local device role : 0x00
+03-05 10:46:09.720  1336  1841 W bt_btm  : BTM: RemBdAddr: 2c:57:31:38:f1:fb
+03-05 10:46:09.720  1336  1841 W bt_btif : bta_hf_client_send_at: No service, skipping 11 command
+03-05 10:46:09.721  1336  1478 D bt_btif : btif_av_state_opening_handler event:BTA_AV_OPEN_EVT flags 0 on index 0
+03-05 10:46:09.721  1336  1478 I BluetoothA2dpSinkServiceJni: bta2dp_connection_state_callback
+03-05 10:46:09.722  1336  1478 D bt_btif : btif_av_state_opening_handler event:BTIF_SM_EXIT_EVT flags 0 on index 0
+03-05 10:46:09.722  1336  1478 D bt_btif : btif_av_state_opened_handler event:BTIF_SM_ENTER_EVT flags 0 peer_sep 0 and index 0
+03-05 10:46:09.722  1336  1478 E bt_btif : btif_rc_get_device_by_bda: device not found, returning NULL!
+03-05 10:46:09.722  1336  1478 E bt_btif : btif_rc_check_handle_pending_play: p_dev NULL
+03-05 10:46:09.722  1336  1841 D bt_btif : bta_av_ssm_execute(): AV Sevent(0x41)=0x1210(API_RC_OPEN) state=3(OPEN)
+03-05 10:46:09.722  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004b  st: CLOSED  evt: UPPER_LAYER_CONNECT_REQ
+03-05 10:46:09.722  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004b  st: CLOSED  evt: SECURITY_COMPLETE
+03-05 10:46:09.731  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004b  st: W4_L2CAP_CON_RSP  evt: PEER_CONNECT_RSP
+03-05 10:46:09.731  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004b  st: CONFIG  evt: UPPER_LAYER_CONFIG_REQ
+03-05 10:46:09.732  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004b  st: CONFIG  evt: PEER_CONFIG_REQ
+03-05 10:46:09.732  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004b  st: CONFIG  evt: UPPER_LAYER_CONFIG_RSP
+03-05 10:46:09.732  1336  1841 W bt_l2cap: L2CAP-Upper layer Config_Rsp,Local CID: 0x004b,Remote CID: 0x004f,PSM: 1,our MTU present:1,our MTU:672
+03-05 10:46:09.746  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004b  st: CONFIG  evt: PEER_CONFIG_RSP
+03-05 10:46:09.746  1336  1841 W bt_l2cap: L2CAP-peer_Config_Rsp,Local CID: 0x004b,Remote CID: 0x004f,PSM: 1,peer MTU present: 0,peer MTU: 672
+03-05 10:46:09.752  1336  1841 W bt_sdp  : process_service_search_attr_rsp
+03-05 10:46:09.752  1336  1841 W bt_l2cap: L2CA_DisconnectReq()  CID: 0x004b
+03-05 10:46:09.757  1336  1841 W bt_btif : bta_hf_client_send_at: No service, skipping 24 command
+03-05 10:46:09.757  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004b  st: W4_L2CAP_DISC_RSP  evt: PEER_DISCONNECT_RSP
+03-05 10:46:09.758  1336  1841 D bt_btif : LCB lcb=1 event=UL_BIND_EVT state=LCB_IDLE_ST
+03-05 10:46:09.758  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004c  st: CLOSED  evt: UPPER_LAYER_CONNECT_REQ
+03-05 10:46:09.758  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004c  st: CLOSED  evt: SECURITY_COMPLETE
+03-05 10:46:09.758  1336  1841 D bt_btif : AVRC_Open role: 0, control:67 status:0, handle:1
+03-05 10:46:09.759  1336  1841 D bt_btif : bta_av_rc_create create 1, role: 0, shdl:1, rc_handle:1, lidx:1, status:0x0
+03-05 10:46:09.764  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004c  st: W4_L2CAP_CON_RSP  evt: PEER_CONNECT_RSP
+03-05 10:46:09.764  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004c  st: CONFIG  evt: UPPER_LAYER_CONFIG_REQ
+03-05 10:46:09.769  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004c  st: CONFIG  evt: PEER_CONFIG_REQ
+03-05 10:46:09.769  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004c  st: CONFIG  evt: UPPER_LAYER_CONFIG_RSP
+03-05 10:46:09.769  1336  1841 W bt_l2cap: L2CAP-Upper layer Config_Rsp,Local CID: 0x004c,Remote CID: 0x0040,PSM: 23,our MTU present:1,our MTU:512
+03-05 10:46:09.770  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004c  st: CONFIG  evt: PEER_CONFIG_RSP
+03-05 10:46:09.770  1336  1841 W bt_l2cap: L2CAP-peer_Config_Rsp,Local CID: 0x004c,Remote CID: 0x0040,PSM: 23,peer MTU present: 0,peer MTU: 512
+03-05 10:46:09.770  1336  1841 D bt_btif : LCB lcb=1 event=LL_OPEN_EVT state=LCB_OPENING_ST
+03-05 10:46:09.770  1336  1841 D bt_btif : bta_av_rc_ctrl_cback handle: 1 event=0x0
+03-05 10:46:09.770  1336  1841 I bt_bta_av: bta_av_rc_opened allow incoming AVRCP connections:1
+03-05 10:46:09.770  1336  1841 E bt_btif : bta_av_rc_opened rcb[1] shdl:1 lidx:1/0
+03-05 10:46:09.770  1336  1478 D bt_btif : btif_av_state_opened_handler event:BTA_AV_RC_OPEN_EVT flags 0 peer_sep 0 and index 0
+03-05 10:46:09.770  1336  1478 D bt_btif : btif_rc_handler: event: BTA_AV_RC_OPEN_EVT
+03-05 10:46:09.770  1336  1478 I BluetoothAvrcpControllerJni: btavrcp_connection_state_callback: conn state: rc: 1 br: 0
+03-05 10:46:09.772  1336  1841 D bt_btif : LCB lcb=1 event=UL_MSG_EVT state=LCB_OPEN_ST
+03-05 10:46:09.773  1336  1478 V BluetoothAvrcpControllerJni: btavrcp_get_rcfeatures_callback
+03-05 10:46:09.774  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0048  st: CLOSED  evt: PEER_CONNECT_REQ
+03-05 10:46:09.774  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0048  st: TERM_W4_SEC_COMP  evt: SECURITY_COMPLETE
+03-05 10:46:09.774  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0048  st: W4_L2CA_CON_RSP  evt: UPPER_LAYER_CONNECT_RSP
+03-05 10:46:09.774  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0048  st: CONFIG  evt: UPPER_LAYER_CONFIG_REQ
+03-05 10:46:09.777  1336  1336 D A2dpMediaBrowserService: handleConnectionStateChange: newState=2 btDev=2C:57:31:38:F1:FB
+03-05 10:46:09.778  1336  1841 D bt_btif : LCB lcb=1 event=LL_MSG_EVT state=LCB_OPEN_ST
+03-05 10:46:09.778  1336  1841 D bt_btif : bta_av_rc_msg_cback handle: 1 opcode=0x0
+03-05 10:46:09.778  1336  1478 D bt_btif : btif_av_state_opened_handler event:BTA_AV_META_MSG_EVT flags 0 peer_sep 0 and index 0
+03-05 10:46:09.778  1336  1478 D bt_btif : btif_rc_handler: event: BTA_AV_META_MSG_EVT
+03-05 10:46:09.778  1336  1841 D bt_btif : LCB lcb=1 event=UL_MSG_EVT state=LCB_OPEN_ST
+03-05 10:46:09.779  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0048  st: CONFIG  evt: PEER_CONFIG_REQ
+03-05 10:46:09.780  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0048  st: CONFIG  evt: UPPER_LAYER_CONFIG_RSP
+03-05 10:46:09.780  1336  1841 W bt_l2cap: L2CAP-Upper layer Config_Rsp,Local CID: 0x0048,Remote CID: 0x0043,PSM: 1,our MTU present:1,our MTU:672
+03-05 10:46:09.781  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0048  st: CONFIG  evt: PEER_CONFIG_RSP
+03-05 10:46:09.781  1336  1841 W bt_l2cap: L2CAP-peer_Config_Rsp,Local CID: 0x0048,Remote CID: 0x0043,PSM: 1,peer MTU present: 0,peer MTU: 672
+03-05 10:46:09.785  1336  1841 D bt_btif : LCB lcb=1 event=LL_MSG_EVT state=LCB_OPEN_ST
+03-05 10:46:09.785  1336  1841 D bt_btif : bta_av_rc_msg_cback handle: 1 opcode=0x0
+03-05 10:46:09.785  1336  1478 D bt_btif : btif_av_state_opened_handler event:BTA_AV_META_MSG_EVT flags 0 peer_sep 0 and index 0
+03-05 10:46:09.785  1336  1478 D bt_btif : btif_rc_handler: event: BTA_AV_META_MSG_EVT
+03-05 10:46:09.785  1336  1841 D bt_btif : LCB lcb=1 event=UL_MSG_EVT state=LCB_OPEN_ST
+03-05 10:46:09.786  1336  1841 W bt_device_profile: profile_feature_fetch:profile 1
+03-05 10:46:09.786  1336  1841 W bt_device_profile: profile_feature_fetch:AVRCP_0103_SUPPORT found 0
+03-05 10:46:09.786  1336  1841 E bt_sdp  : sdp_get_stored_avrc_tg_version unable to open AVRC Conf file for read: err: (No such file or directory)
+03-05 10:46:09.786  1336  1841 E bt_sdp  : Stored AVRC TG version: 0x0
+03-05 10:46:09.786  1336  1841 E bt_sdp  : Reset Browse feature bitmask
+03-05 10:46:09.786  1336  1841 E bt_sdp  : Restore Browsing bit
+03-05 10:46:09.791  1336  1841 D bt_btif : LCB lcb=1 event=LL_MSG_EVT state=LCB_OPEN_ST
+03-05 10:46:09.791  1336  1841 D bt_btif : bta_av_rc_msg_cback handle: 1 opcode=0x0
+03-05 10:46:09.791  1336  1478 D bt_btif : btif_av_state_opened_handler event:BTA_AV_META_MSG_EVT flags 0 peer_sep 0 and index 0
+03-05 10:46:09.791  1336  1478 D bt_btif : btif_rc_handler: event: BTA_AV_META_MSG_EVT
+03-05 10:46:09.791  1336  1478 I BluetoothAvrcpControllerJni: btavrcp_play_status_changed_callback
+03-05 10:46:09.792  1336  1841 W bt_l2cap: L2CA_DisconnectRsp()  CID: 0x0048
+03-05 10:46:09.792  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0048  st: W4_L2CA_DISC_RSP  evt: UPPER_LAYER_DISCONNECT_RSP
+03-05 10:46:09.793  1336  1841 W bt_sdp  : SDP - Rcvd L2CAP disc, process pend sdp ccb: 0x48
+03-05 10:46:09.793  1336  1841 D bt_btif : LCB lcb=1 event=UL_MSG_EVT state=LCB_OPEN_ST
+03-05 10:46:09.800  1336  1841 D bt_btif : LCB lcb=1 event=LL_MSG_EVT state=LCB_OPEN_ST
+03-05 10:46:09.800  1336  1841 D bt_btif : bta_av_rc_msg_cback handle: 1 opcode=0x0
+03-05 10:46:09.800  1336  1478 D bt_btif : btif_av_state_opened_handler event:BTA_AV_META_MSG_EVT flags 0 peer_sep 0 and index 0
+03-05 10:46:09.800  1336  1478 D bt_btif : btif_rc_handler: event: BTA_AV_META_MSG_EVT
+03-05 10:46:09.800  1336  1841 D bt_btif : LCB lcb=1 event=UL_MSG_EVT state=LCB_OPEN_ST
+03-05 10:46:09.806  1336  1841 D bt_btif : LCB lcb=1 event=LL_MSG_EVT state=LCB_OPEN_ST
+03-05 10:46:09.806  1336  1841 D bt_btif : bta_av_rc_msg_cback handle: 1 opcode=0x0
+03-05 10:46:09.806  1336  1478 D bt_btif : btif_av_state_opened_handler event:BTA_AV_META_MSG_EVT flags 0 peer_sep 0 and index 0
+03-05 10:46:09.806  1336  1478 D bt_btif : btif_rc_handler: event: BTA_AV_META_MSG_EVT
+03-05 10:46:09.807  1336  1478 I BluetoothAvrcpControllerJni: btavrcp_track_changed_callback
+03-05 10:46:09.860  1336  1841 W bt_l2cap: L2CA_SetDesireRole() new:x0, disallow_switch:0
+03-05 10:46:21.147  1336  1841 W bt_btif : bta_hf_client_find_cb_by_rfc_handle: no cb yet 13 alloc 1 conn_handle 14
+03-05 10:46:21.147  1336  1841 E bt_stack: [ERROR:bta_hf_client_rfc.cc(131)] bta_hf_client_mgmt_cback: closing port handle 13dev 90:2b:d2:27:4d:a4
+03-05 10:46:21.148  1336  1841 W bt_rfcomm: port_rfc_closed: RFCOMM connection closed, index=0, state=0 reason=Closed[19], UUID=0000, bd_addr=00:00:00:00:00:00, is_server=0
+03-05 10:46:21.148  1336  1841 W bt_l2cap: L2CA_SetDesireRole() new:x0, disallow_switch:0
+03-05 10:46:21.190  1336  1841 W bt_l2cap: L2CA_DisconnectRsp()  CID: 0x004a
+03-05 10:46:21.190  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004a  st: W4_L2CA_DISC_RSP  evt: UPPER_LAYER_DISCONNECT_RSP
+03-05 10:46:21.191  1336  1841 W bt_rfcomm: RFCOMM_DisconnectInd LCID:0x4a
+03-05 10:46:21.373  1336  1841 I bt_btm_sec: btm_sec_disconnected clearing pending flag handle:7 reason:19
+03-05 10:46:21.373  1336  1841 W bt_l2cap: L2CA_SetDesireRole() new:x0, disallow_switch:0
+03-05 10:46:21.373  1336  1478 D bt_btif : btif_av_move_idle: Already in IDLE
+03-05 10:46:32.044  1336  1841 E bt_stack: [ERROR:bta_hf_client_rfc.cc(131)] bta_hf_client_mgmt_cback: closing port handle 14dev 2c:57:31:38:f1:fb
+03-05 10:46:32.044  1336  1841 W bt_rfcomm: port_rfc_closed: RFCOMM connection closed, index=0, state=0 reason=Closed[19], UUID=0000, bd_addr=00:00:00:00:00:00, is_server=0
+03-05 10:46:32.045  1336  1841 W bt_l2cap: L2CA_DisconnectRsp()  CID: 0x004c
+03-05 10:46:32.045  1336  1841 W bt_l2cap: L2CAP - LCID: 0x004c  st: W4_L2CA_DISC_RSP  evt: UPPER_LAYER_DISCONNECT_RSP
+03-05 10:46:32.045  1336  1841 D bt_btif : LCB lcb=1 event=LL_CLOSE_EVT state=LCB_OPEN_ST
+03-05 10:46:32.045  1336  1841 D bt_btif : bta_av_rc_ctrl_cback handle: 1 event=0x1
+03-05 10:46:32.046  1336  1841 W bt_l2cap: L2CA_SetDesireRole() new:x0, disallow_switch:0
+03-05 10:46:32.046  1336  1841 W bt_l2cap: L2CA_DisconnectRsp()  CID: 0x0044
+03-05 10:46:32.046  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0044  st: W4_L2CA_DISC_RSP  evt: UPPER_LAYER_DISCONNECT_RSP
+03-05 10:46:32.047  1336  1841 D bt_btif : bta_av_ssm_execute(): AV Sevent(0x41)=0x121e(STR_CLOSE) state=3(OPEN)
+03-05 10:46:32.047  1336  1478 D bt_btif : btif_rc_handler: event: BTA_AV_RC_CLOSE_EVT
+03-05 10:46:32.047  1336  1478 D bt_btif : handle_rc_disconnect: rc_handle: 1
+03-05 10:46:32.047  1336  1841 W bt_btif : bta_av_str_closed: peer_addr=2c:57:31:38:f1:fb open_status=0 chnl=64 hndl=65 co_started=0
+03-05 10:46:32.048  1336  1478 I BluetoothAvrcpControllerJni: btavrcp_connection_state_callback: conn state: rc: 0 br: 0
+03-05 10:46:32.048  1336  1841 W bt_l2cap: L2CA_SetDesireRole() new:x80, disallow_switch:0
+03-05 10:46:32.048  1336  1841 E bt_l2cap: L2CA_SetMediaStreamChannel: The channel 68 not found in active media channels
+03-05 10:46:32.048  1336  1841 W bt_btif : bta_av_str_closed Open success !!!
+03-05 10:46:32.048  1336  1841 W bt_btif : bta_dm_rm_cback:0, status:1
+03-05 10:46:32.048  1336  1841 W bt_l2cap: L2CA_SetDesireRole() new:x0, disallow_switch:0
+03-05 10:46:32.048  1336  1841 W bt_l2cap: L2CA_DisconnectRsp()  CID: 0x0049
+03-05 10:46:32.048  1336  1841 W bt_l2cap: L2CAP - LCID: 0x0049  st: W4_L2CA_DISC_RSP  evt: UPPER_LAYER_DISCONNECT_RSP
+03-05 10:46:32.049  1336  1478 E bt_btif : Unhandled Index = 1
+03-05 10:46:32.049  1336  1478 D bt_btif : btif_av_state_opened_handler event:BTA_AV_CLOSE_EVT flags 0 peer_sep 0 and index 0
+03-05 10:46:32.049  1336  1478 W bt_btif : Stop the AV Data channel
+03-05 10:46:32.049  1336  1478 W bt_btif : ## ON A2DP STOPPED ##
+03-05 10:46:32.049  1336  1841 E bt_l2cap: L2CA_SetMediaStreamChannel: The channel 73 not found in active media channels
+03-05 10:46:32.049  1336  1841 D bt_btif : bta_av_sig_chg:bta_av_sig_chg event: 17
+03-05 10:46:32.050  1336  1478 I BluetoothA2dpSinkServiceJni: bta2dp_connection_state_callback
+03-05 10:46:32.059  1336  1478 D bt_btif : btif_av_state_opened_handler event:BTIF_SM_EXIT_EVT flags 0 peer_sep 0 and index 0
+03-05 10:46:32.059  1336  1478 D bt_btif : btif_av_state_idle_handler event:BTIF_SM_ENTER_EVT flags 0 on index 0
+03-05 10:46:32.067  1336  1478 D bt_btif : btif_dispatch_sm_event: event: 35, len: 6
+03-05 10:46:32.067  1336  1478 D bt_btif : btif_dispatch_sm_event: event 35 sent
+03-05 10:46:32.067  1336  1478 D bt_btif : Proces
